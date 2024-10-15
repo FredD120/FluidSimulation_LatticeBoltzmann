@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[2]:
-
-
-#%matplotlib notebook
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import cm
@@ -17,7 +11,7 @@ def main():
     Ny                     = 100    # resolution y-dir
     rho0                   = 90    # average density
     tau                    = 0.6    # collision timescale
-    Nt                     = 700   # number of timesteps
+    Nt                     = 200   # number of timesteps
 
     # Lattice speeds / weights
     NL = 9
@@ -105,27 +99,6 @@ def main():
 
 if __name__== "__main__":
   main()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
